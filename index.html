@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>G7</title>
+</head>
+
+<body>
+  <!--inicio nav-->
+  <div class="container-fluid bg-black">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img class="ms-3 museum-logo" src="imagenes/imagenesnosotros/planetariologonavyfooter.png" alt="Planetario Logo" width="180">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item dropdown">
+          </li><li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="indexnosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="indexgalerias.html">Colecciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="indextienda.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="indexcontacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-danger" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+<!--cierre nav-->
+  
+<!--carousel-->
+<div id="carouselinicio" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselinicio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselinicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselinicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/carouseluno.jpg" class="d-block w-100" alt="Saturno">
+      <div class="carousel-caption d-none d-md-block text-end"></div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/carouseldosgalaxia.jpg" class="d-block w-100" alt="La Via Lactea">
+      <div class="carousel-caption d-none d-md-block text-end"></div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/carouseltreston618.jpg" class="d-block w-100" alt="Ton 618">
+      <div class="carousel-caption d-none d-md-block text-end"></div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselinicio" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselinicio" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--cierre carousel-->
+
+<!--evento-->
+<section id="evento">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <div class="title text-center py-5">
+           <h1>EVENTOS</h1>
+          </div>
+        </div>
+      </div>
+    
+    <div class="row">
+      <div class="col-md-12 col-lg-4 bg-opacity-75 py-3">
+        <div class="card">
+        <img src="imagenes/cosasdelplanetario/planetario.svg" class="card-img-top" alt="planetario">
+        <div class="card-body">
+          <h2>VISITA EL PLANETARIO</h2>
+          <p class="card-text">
+            Planea tu visita para conocer este famoso lugar del cual todos hablan.
+          </p>
+          <a href="#" class="btn btn-dark">Leer+</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-6 col-lg-4 py-3">
+        <div class="card">
+        <img src="imagenes/cosasdelplanetario/visitasguiadas.svg" class="card-img-top" alt="visitasguiadas">
+        <div class="card-body">
+          <h2>VISITAS EDUCATIVAS</h2>
+          <p class="card-text">
+            Planea una visita educativa para tu colegio acá en el planetario.
+          </p>
+          <a href="#" class="btn btn-dark">Leer+</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-6 col-lg-4 py-3">
+        <div class="card">
+        <img src="imagenes/cosasdelplanetario/cielo.svg" class="card-img-top" alt="cielo">
+        <div class="card-body">
+          <h2>DESCUBRE EL CIELO</h2>
+          <p class="card-text">
+            Veni con nosotros y descubre las maravillosas cosas que están en el.
+          </p>
+          <a href="#" class="btn btn-dark">Leer+</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 py-3">
+        <div class="card">
+        <img src="imagenes/cosasdelplanetario/clubdelcosmo.svg" class="card-img-top" alt="clubdelcosmo">
+        <div class="card-body">
+          <h2>CLUB DEL COSMO</h2>
+          <p class="card-text">
+            Se parte de el club del cosmo,donde aprenderas de el y crearasamistades.
+          </p>
+          <a href="#" class="btn btn-dark">Leer+</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-6 col-lg-4 py-3">
+        <div class="card">
+        <img src="imagenes/cosasdelplanetario/planetaazul.svg" class="card-img-top" alt="planetaazul">
+        <div class="card-body">
+          <h2>UN NUEVO PLANETA</h2>
+          <p class="card-text">
+            Descubre este nuevo planeta con nosotros y como lo encontramos.
+          </p>
+          <a href="#" class="btn btn-dark">Leer+</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-6 col-lg-4 py-3">
+        <div class="card">
+        <img src="imagenes/cosasdelplanetario/semanadelaciencia.svg" class="card-img-top" alt="semanadelaciencia">
+        <div class="card-body">
+          <h2>SEMANA DE LA CIENCIA</h2>
+          <p class="card-text">
+            Semana de la ciencia en el planetario, donde podras experimentar.
+          </p>
+          <a href="#" class="btn btn-dark">Leer+</a>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="text-center">
+      <a href="indexnosotros.html">
+        <button type="button" class="btn my-2 rounded-4 btn-danger">Nosotros</button>
+      </a>
+    </div>
+  </section>
+<!--cierre eventos-->
+
+<!--carousel comentario-->
+<div id="carouselcomentario" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselcomentario" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselcomentario" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselcomentario" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/carouseldos.jpg" class="d-block w-100" alt="Imagen carousel dos">
+      <div class="carousel-caption text-center"></div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/carouseldoscomentario.jpg" class="d-block w-100" alt="Imagen carousel tres">
+      <div class="carousel-caption text-center"></div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/carouseldoscomentario3.jpg" class="d-block w-100" alt="Imagen carousel cuatro">
+      <div class="carousel-caption text-center"></div>
+    </div>
+  </div>
+  
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselcomentario" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselcomentario" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!--cierre carousel comentarios-->
+
+<!--galeria-->
+<section id="galeria">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-12">
+        <div class="text-center py-5">
+          <h1>GALERIA</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-6 py-4">
+        <div class="card text-bg-dark">
+          <img src="imagenes/galaxias/galaxiaazul.jpg" class="card-img" alt="galaxiaazul">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Galaxías</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 col-lg-6 py-4">
+        <div class="card text-bg-dark">
+          <img src="imagenes/planetas/planetaazul22.jpg" class="card-img" alt="plaentasjuntosamarillos">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Planetas</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 col-lg-6 py-4">
+        <div class="card text-bg-dark">
+          <img src="imagenes/estrellas/estrellarosa.jpg" class="card-img" alt="estrellarosa">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Estrellas</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 col-lg-6 py-4">
+        <div class="card text-bg-dark">
+          <img src="imagenes/agujeros/agujerorojo.jpg" class="card-img" alt="agujerorojo">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Agujeros</h5>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="text-center">
+    <a href="indexgalerias.html">
+      <button type="button" class="rounded-4 btn btn-danger"> Accede a nuestra galeria de imagenes</button>
+    </a>
+  </div>
+</section>
+<!--cierre galería-->
+
+<!--footer-->
+<footer class="bg-black text-center py-lg-3">
+  <div class="container col-lg-6">
+  <div class="row">
+    <a class= "planetariologo">
+      <img src="imagenes/imagenesnosotros/planetariologonavyfooter.png" alt="Planetario Logo" width="180">
+    </a>
+    <div>
+      <ul class="list-inline redes">
+          <li class="list-inline-item">
+              <a href="https://twitter.com/planetarioba" class="text-decoration-none fs-4">                                
+                <i class="bi bi-twitter"></i>
+              </a>
+          </li>
+          <li class="list-inline-item">
+              <a href="https://www.instagram.com/planetarioBA/" class="text-decoration-none fs-4">
+                  <i class="bi bi-instagram"></i>
+              </a>
+          </li>
+          <li class="list-inline-item">
+              <a href="https://www.facebook.com/planetarioBA/" class="text-decoration-none fs-4">
+                <i class="bi bi-facebook"></i>
+              </a>
+          </li>
+      </ul>
+      <p class="text-white">@2023 Planetario Sofia Di Paolo / Mora Parabue / Camila Simonetti / Diseño Web / G7</p>
+    </div>
+  </div>
+  </div>
+  </footer>
+  <!--cierre footer-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+
+
+
+.redes li a{
+    color: #eebdc3!important;
+}
+#evento{
+    background-color: #e8e6bf;
+}
+
+#comentarios{
+    background-color: #e8e6bf;
+}
+#galeria{
+    background-color: #e8e6bf;
+}
+
+#evento p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 75%;
+}
+
+#evento h2 {
+    font-size: 170%;
+}
+
+#evento h1 {
+    font-family: 'Vina Sans', sans-serif;
+}
+
+#NosotrosInformacion {
+    background-color: #e8e6bf;
+}
+
+#NosotrosInformacion h1 {
+    color: #0082df;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+#NosotrosInformacion p {
+    font-family: 'Libre Baskerville', serif;
+}
+
+#colecciones {
+    background-color: #e8e6bf;
+}
+
+#colecciones h1 {
+    font-family: 'Vina Sans', sans-serif;
+}
+
+#paracompletar {
+    background-color: #e8e6bf;
+}
+
+#direccion {
+    margin-bottom: 10px;
+}
+
+#direccion h1{
+    font-family: 'Vina Sans', sans-serif;
+    color:#0082df;
+}
+
+#paracompletar h1 {
+    color:#0082df;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+#latienda h1 {
+    color:#0082df;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+#latienda {
+    background-color: #e8e6bf;
+}
+
+#paracompletar button {
+    margin-bottom: 10px;
+}
+
+#inputNombre {
+    border-color: #0082df;
+}
+
+#inputTelefono {
+    border-color: #0082df;
+}
+
+#inputApellido {
+    border-color: #0082df;
+}
+
+#inputMail {
+    border-color: #0082df;
+}
+
+#paravisitas {
+    border-color: #0082df;
+}
+
+#inputComentario {
+    border-color: #0082df;
+}
+
+#galeria h1 {
+    font-family: 'Vina Sans', sans-serif;
+}
+
+#galeria button {
+    margin-bottom: 10px;
+}
+
+#carouselcomentario p{
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 10%;
+    margin-left: 10%;
+
+
+}
+#estrellas{
+    background-color: #e8e6bf;  
+}
+
+#estrellas h1 {
+    font-family: 'Vina Sans', sans-serif;
+}
+
+#agujeros{
+    background-color: #e8e6bf;
+}
+
+#agujeros h1 {
+    font-family: 'Vina Sans', sans-serif;
+}
+
+#galaxias {
+    background-color: #e8e6bf;
+}
+
+#galaxias h1 {
+    font-family: 'Vina Sans', sans-serif;
+}
+
+
+
+
+
+
